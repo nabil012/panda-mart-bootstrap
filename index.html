@@ -7,10 +7,13 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light  bg-light">
         <div class="container-fluid">
       
             <a class="navbar-brand" href="#">
@@ -23,20 +26,20 @@
           <div class="collapse navbar-collapse" id="navbarScroll">
             <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#Home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="#">Shoes</a>
+                <a class="nav-link " aria-current="page" href="#Catagories">Catagories</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="#">Product</a>
+                <a class="nav-link " aria-current="page" href="#Shoes">Shoes</a>
               </li>
             
               <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="#">About Us</a>
+                <a class="nav-link " aria-current="page" href="#Bags">Bags</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us </a>
+                <a class="nav-link" aria-current="page" href="#Contact-Us">Contact Us</a>
               </li>
             
             </ul>
@@ -58,13 +61,15 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
            <div class="row">
-             <div class="col-lg-7 align-self-center ps-5">
-              <h1>Mi LED TV 4A PRO 32</h1>
-              <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+             <div class="col-lg-7 col-md-5  align-self-center ps-5">
+              <h1 class="fw-bold">Mi LED TV 4A PRO 32</h1>
+              <p>The 1080p full HD screen features the powerful
+                7th generation picture quality engine that delivers
+                a quality entertainment experience</p>
               <h1>$1289</h1>
               <button>buy now</button>
              </div>
-          <div class="col-lg-5">
+          <div class="col-lg-5 col-md-7 ">
             <img src="images/banner-images/tv.png" class="d-block w-100  " alt="...">
           </div>
         </div>
@@ -73,13 +78,13 @@
 
           <div class="carousel-item">
             <div class="row">
-              <div class="col-lg-7 align-self-center ps-5">
-               <h1>Mi LED TV 4A PRO 32</h1>
-               <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-               <h1>$1289</h1>
+              <div class="col-lg-7 col-md-5 align-self-center ps-5">
+               <h1 class="fw-bold">KBL 90BT HEADPHONE</h1>
+               <p>For over 60 years, kBL has engineered the precise, impressive sound found in big venues around the world. These headphones reproduce that same JBL sound, punching out bass that’s both deep and powerful.</p>
+               <h1>$669</h1>
                <button>buy now</button>
               </div>
-           <div class="col-lg-5">
+           <div class="col-lg-5 col-md-7">
              <img src="images/banner-images/headphone.png" class="d-block w-100  " alt="...">
            </div>
           </div>
@@ -87,13 +92,18 @@
 
           <div class="carousel-item">
             <div class="row ">
-              <div class="col-lg-7 align-self-center ps-5">
-               <h1>Mi LED TV 4A PRO 32</h1>
-               <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-               <h1>$1289</h1>
+              <div class="col-lg-7 col-md-5 align-self-center ps-5">
+               <h1 class="fw-bold">THE XBOX
+                SERIES X
+                </h1>
+               <p>The Xbox Series X runs like an Xbox One swallowed a Lambo.The Fastest,
+               most poerfull
+                xbox ever
+              </p>
+               <h1>$2289</h1>
                <button>buy now</button>
               </div>
-           <div class="col-lg-5">
+           <div class="col-lg-5 col-md-7">
              <img src="images/banner-images/xbox.png" class="d-block w-100 " alt="...">
            </div>
           </div>
@@ -111,27 +121,27 @@
     </section>
 
    
-<section class="container mb-5">
+<section class="container mb-5" id="Catagories">
 <h1 class="mt-5">Categories</h1>
-<div class="row g-5 mt-3 ms-5">
-  <div class="col-lg-3  mx-4 ">
-    <div class="row border">
-      <div class="col-lg-6 d-flex align-items-center"><h2>Shoes</h2></div>
-      <div class="col-lg-6"><img class="w-100" src="images/categories/shoes.png" alt=""></div>
+<div class="row gy-5 mt-3">
+  <div class="col-lg-3 col-md-4 col-12  mx-4 ">
+    <div class="row rounded-2 catagorie">
+      <div class="col-lg-6 col-md-6 col-6 d-flex align-items-center"><h2>Shoes</h2></div>
+      <div class="col-lg-6 col-md-6 col-6 col- "><img class="w-100 cat-demo" src="images/categories/shoes.png" alt=""></div>
     </div>
   </div>
 
-  <div class="col-lg-3 mx-4">
-    <div class="row border rounded-top">
-      <div class="col-lg-6 d-flex align-items-center"><h2>Bag</h2></div>
-      <div class="col-lg-6"><img class="w-100"src="images/categories/bag.png" alt=""></div>
-    </div>
+  <div class="col-lg-3 col-md-4 col-12 mx-4">
+    <div class="row rounded-2 catagorie-two">
+      <div class="col-lg-6 col-md-6 col-6 d-flex align-items-center"><h2>Bag</h2></div>
+      <div class="col-lg-6 col-md-6 col-6 "><img class="w-100 cat-demo"src="images/categories/bag.png" alt=""></div>
+     </div>
   </div>
 
-  <div class="col-lg-3  mx-4">
-    <div class="row border">
-      <div class="col-lg-6 d-flex align-items-center"><h2>Watch</h2></div>
-      <div class="col-lg-6"><img class="w-100" src="images/categories/watch.png" alt=""></div>
+  <div class="col-lg-3 col-md-4 col-12 mx-4">
+    <div class="row rounded-2 catagorie-three">
+      <div class="col-lg-6 col-md-6 col-6  d-flex align-items-center"><h2>Watch</h2></div>
+      <div class="col-lg-6 col-md-6 col-6 "><img class="w-100 cat-demo" src="images/categories/watch.png" alt=""></div>
     </div>
   </div>
 
@@ -139,13 +149,13 @@
 </section>
 
 
-<section class="container">
+<section class="container" id="Shoes" >
   <h1 class="mt-2 mb-5">Shoes</h1>
   <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
     <div class="col">
       <div class="card h-100">
         <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
-        <div class="card-body">
+        <div class="card-body shadow">
           <h3 class="card-title">Reebok Dart Shoes</h3>
           <p class="card-text fw-light">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
          
@@ -159,7 +169,7 @@
     <div class="col">
       <div class="card h-100">
         <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
-        <div class="card-body">
+        <div class="card-body shadow">
           <h3 class="card-title">Reebok Pump</h3>
           <p class="card-text fw-light">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
          
@@ -173,7 +183,7 @@
     <div class="col">
       <div class="card h-100">
         <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
-        <div class="card-body">
+        <div class="card-body shadow">
           <h3 class="card-title">Reebok All Terrain</h3>
           <p class="card-text fw-light">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
          
@@ -189,13 +199,13 @@
 </section>
 
 
-<section class="container">
+<section class="container" id="Bags">
   <h1 class="mt-2 mb-5">Bags</h1>
   <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
     <div class="col">
       <div class="card h-100">
         <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
-        <div class="card-body">
+        <div class="card-body shadow">
           <h3 class="card-title">Ison Backpacke</h3>
           <p class="card-text fw-light">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
          
@@ -209,7 +219,7 @@
     <div class="col">
       <div class="card h-100">
         <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
-        <div class="card-body">
+        <div class="card-body shadow">
           <h3 class="card-title">Biaowang Backpack</h3>
           <p class="card-text fw-light">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
          
@@ -221,9 +231,9 @@
       </div>
     </div>
     <div class="col">
-      <div class="card h-100">
+      <div class="card h-100 ">
         <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
-        <div class="card-body">
+        <div class="card-body shadow ">
           <h3 class="card-title">Dxyizu WS54 Smart</h3>
           <p class="card-text fw-light">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
          
@@ -241,11 +251,15 @@
 </main>
 
 <footer>
-  <section class="container footer-clr mt-5 pb-5 ">
+  <section class="container footer-clr mt-5 pb-5 rounded " id="Contact-Us">
 
     <h1 class="text-center pt-5 ">Let's Stay in Touch</h1>
     <p class="fw-light text-center">Get updates on sales specials and more</p>
-    <input class="w-25 mb-5 " type="email"placeholder="Enter your email"><button>submit</button>
+   <span class="d-flex justify-content-center"><input class="w-25 mb-5 text-center" type="email"placeholder="Enter your email">
+    <button class="h-25">submit</button>
+  </span>
+  
+  <p class=" text-center"> Developed by Saeed Hasan Nabil @copyright2022</p>
     
     </section>
 </footer>
